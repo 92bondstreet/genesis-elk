@@ -34,3 +34,4 @@ fi
 header "Install ELK stack"
 docker-compose up
 cecho "ELK stack done" $green
+cecho "Please wait few seconds before to call elk url" $yellow
