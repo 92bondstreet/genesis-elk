@@ -30,5 +30,5 @@ services:
     links:
       - kibana
     volumes:
-    - ./nginx/nginx.conf:/etc/nginx/nginx.conf
-    - ./nginx/kibana.conf:/etc/nginx/sites-enabled/kibana.conf
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      #- ./nginx/kibana.conf:/etc/nginx/sites-enabled/kibana.conf
